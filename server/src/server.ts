@@ -5,7 +5,7 @@ const app = Fastify();
 const prisma= new PrismaClient();
 
 app.get('/hello',async () => {
-    const users = await prisma.user.findMany();
+    const users = await prisma.user.findMany()
 
     return users
 })
