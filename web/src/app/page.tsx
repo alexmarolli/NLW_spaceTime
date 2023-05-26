@@ -11,26 +11,31 @@ export default function Home() {
         <div className="absolute right-0 top-1/2 h-[282px] w-[526px] bg bg-purple-700 opacity-50 -translate-y-1/2 translate-x-1/2 rounded-full blur-full"/>
         {/*stripes */}
         <div className="absolute top-0 right-1 bottom-0 w-[8px] bg-stripe" />
-      
-      {/*sing in */}
+        {/*sing in */}
         <a href="" className="flex text-left itens-center gap-3 hover:text-gray-50 transition-colors">
           <div className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-400">
             <User className='h-5 w-5 text-gray-500'/>
           </div>
           <p className='max-w-[140px] text-sm  leading-snug'>
               <span className='underline'>Crie sua conta</span>
-             {' '}e salve suas memorias</p>
-        </a>
+             {' '}e salve suas memorias</p></a>
+        {/*Hero */}
         <div className='space-y-5'>
           <Image src ={nlwLogo} alt='Nlw space time' />
           <div className='space-y1 max-w-[420px]'>
-            <h1>Sua cápsula do tempo</h1>
-            <p>Colecione momentos marcantes da sua jornada e compartilhe (se quiser) com o mundo! 
+            <h1 className='text-4xl font-bold leading-tight text-gray-50'>Sua cápsula do tempo</h1>
+            <p className=' text-lg leading-relaxed'>Colecione momentos marcantes da sua jornada e compartilhe (se quiser) com o mundo! 
             </p>
           </div>
-          <a href="" className='inline-block'>CADASTRAR LEMBRANÇAS</a>
+          <a href="" className='inline-block bg-green-500 rounded-full px-5 py-3 font-alt text-sm uppercase leading-none text-black hover:bg-green-600'>CADASTRAR LEMBRANÇAS</a>
         </div>
+        {/* consideração */}
+        <div className='text-sm leading-relaxed text-gray-200'>Feito com 💜 no NLW da <a href="">Rocketseat</a>
+        </div>
+
       </div>
+
+
       {/*Right */}
       <div className="flex flex-col p-16 bg-[url(../assets/bg-stars.svg)] bg-cover ">
         <div className="flex flex-1 items-center justify-center ">

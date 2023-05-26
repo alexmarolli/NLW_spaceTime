@@ -73,10 +73,10 @@ module.exports = {
           900: '#6b501b',
         },
       },
-      backgroundImage:{
-        stripe:'linear-gradient(to bottom, rgba(255,255,255 ),rgba(255,255,255)12,5%, transparent 12,5%, transparent)',
+      backgroundImage: {
+        stripe:'linear-gradient(to bottom, rgba(255,255,255 ,0.1),rgba(255,255,255,0.1)12,5%, transparent 12,5%, transparent)',
       },
-      backgroundSize:{
+      backgroundSize: {
         stripe:'100% 8px'
       },
       blur:{
